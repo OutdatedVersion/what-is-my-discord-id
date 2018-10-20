@@ -1,0 +1,8 @@
+{
+  "name": "what-is-my-discord-id",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
