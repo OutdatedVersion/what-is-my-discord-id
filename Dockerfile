@@ -4,6 +4,6 @@ COPY package.json yarn.lock ./
 
 RUN [ "yarn", "install", "--production" ]
 
-COPY src ./
+COPY src ./src
 
 CMD [ "node", "src/index.js" ]
