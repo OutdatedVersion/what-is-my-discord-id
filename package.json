@@ -2,6 +2,9 @@
   "name": "what-is-my-discord-id",
   "version": "1.0.0",
   "main": "build/index.js",
+  "scripts": {
+    "docker-build": "bash -c 'docker build -t outdatedversion/what-is-my-discord-id:$(git rev-parse --short HEAD) .'"
+  },
   "dependencies": {
     "discord.js": "^11.4.2"
   }
